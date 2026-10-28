@@ -3,11 +3,11 @@
 -- API Cadastro de Produtos
 -- ============================================
 
-CREATE DATABASE IF NOT EXISTS db_produtos
+CREATE DATABASE IF NOT EXISTS banco_produtos
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
 
-USE db_produtos;
+USE banco_produtos;
 
 CREATE TABLE IF NOT EXISTS produtos (
   id            INT           NOT NULL AUTO_INCREMENT,
