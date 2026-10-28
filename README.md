@@ -45,6 +45,8 @@ DB_PORT=3306
 DB_USER=root
 DB_PASSWORD=sua_senha
 DB_NAME=db_produtos
+JWT_SECRET=sua_chave_secreta
+JWT_EXPIRES_IN=tempo_para_expirar_token
 ```
 
 ### 4. Rodar a API
